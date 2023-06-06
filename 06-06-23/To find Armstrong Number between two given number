@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    System.out.println("enter n1 number");
+	    int n1= sc.nextInt();
+	    System.out.println("enter n2 number");
+	    int n2 = sc.nextInt();
+	   
+	    for(int i=n1;i<=n2;i++)
+	    {
+	        int check,sum =  0,rem;
+	        check = i;
+	    while(check != 0)
+	    {
+	        rem = check%10;
+	        sum= sum+(rem*rem*rem);
+	        check = check/10;
+	    }
+	    if(sum == i){
+		System.out.println(i + " is an armstrong number");
+	    }
+	    }
+	}
+}
