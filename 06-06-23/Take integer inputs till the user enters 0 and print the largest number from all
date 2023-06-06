@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    // System.out.println("the  num is : ");
+	    int num;
+	    int sum =0;
+       do{
+           System.out.println("Enter the number: ");
+            num = sc.nextInt();
+           System.out.println("Enter 0 to end the loop");
+           sum += num;
+       }while (num > 0);
+
+       System.out.println("Sum is "+ sum);
+	}
+}
