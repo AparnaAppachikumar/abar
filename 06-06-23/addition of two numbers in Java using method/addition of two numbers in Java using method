@@ -1,0 +1,20 @@
+//addition of two numbers in Java using method
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter the num1 :");
+		int n1 = sc.nextInt();
+		System.out.println("enter the num2 :");
+		int n2 = sc.nextInt();
+		int ans = twonum(n1,n2);
+		System.out.println("the additin of number is : "+ans);
+	}
+	public static int twonum(int n1,int n2)
+	{
+	    int sum = 0;
+	    return sum = n1+n2;
+	    
+	}
+}
