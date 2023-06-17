@@ -1,0 +1,17 @@
+/*to find area and circumferene of circle
+Formula for area and circumference of circle
+Area of circle = πr2
+Circumference of circle = 2πr*/
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter the num1 :");
+		int n = sc.nextInt();
+	    double area = Math.PI*(n*n);
+	    double Circumference = Math.PI* 2*n; 
+	    System.out.println("the area of circle is :" + area);
+	    System.out.println("the circumference of circle is "+ Circumference);
+	}
+}
